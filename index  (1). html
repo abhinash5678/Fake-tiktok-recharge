@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TikTok Coin Recharge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recharge TikTok Coins</h1>
+
+    <input type="text" id="username" placeholder="Enter TikTok username">
+
+    <div class="packages">
+      <button onclick="selectPackage(100)">100 Coins</button>
+      <button onclick="selectPackage(500)">500 Coins</button>
+      <button onclick="selectPackage(1000)">1000 Coins</button>
+    </div>
+
+    <button onclick="startRecharge()">Start Recharge</button>
+
+    <div id="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
